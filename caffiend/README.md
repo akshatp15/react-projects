@@ -8,4 +8,4 @@ Caffiend is a web application designed to help track one's caffiene intake and p
 <h5>Back-End</h5>
 - The back-end is Firebase which handles user authentication along with the storage of a users inputted caffiene intakes.
 
-To learn more about your caffiene consumption checkout the Caffiend web app today! 
+<p>To learn more about your caffiene consumption checkout the Caffiend web app today!</p> 
