@@ -1,8 +1,10 @@
-# React + Vite
+# Pokedex Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pokedex is a web application which is a acts as an encyclopedia for all the Pokemon from the LeafGreen and FireRed Games. The web app allows you to view all the 150 Pokemon from the games and discover all the moves and types of the Pokemon to delve into the world of Pokemon.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>Tech Stack</h3>
+Caffiend is a full stack project with a separate front and back end
+<h5>Front-End</h5>
+The front-end is made using ReactJs and styled using CSS.  
+<h5>Back-End</h5>
+The back-end is Firebase which handles user authentication along with the storage of a users inputted caffiene intakes. 
