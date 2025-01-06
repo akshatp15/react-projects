@@ -4,4 +4,4 @@ Pokedex is a web application which acts as an encyclopedia for all the Pokemon f
 
 Pokedex was made using ReactJs and styled with CSS.
 
-To delve into the wonderful world of Pokemon checkout this project.
+To delve into the wonderful world of Pokemon checkout this Pokedex project!
