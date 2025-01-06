@@ -4,8 +4,8 @@ Caffiend is a web application designed to help track one's caffiene intake and p
 <h3>Tech Stack</h3>
 - Caffiend is a full stack project with a separate front and back end
 <h5>Front-End</h5>
-<p>The front-end is made using ReactJs and styled using CSS.</p> 
+- The front-end is made using ReactJs and styled using CSS.
 <h5>Back-End</h5>
-<p>The back-end is Firebase which handles user authentication along with the storage of a users inputted caffiene intakes.</p> 
+- The back-end is Firebase which handles user authentication along with the storage of a users inputted caffiene intakes.
 
 To learn more about your caffiene consumption checkout the Caffiend web app today! 
