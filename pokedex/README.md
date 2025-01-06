@@ -1,5 +1,5 @@
 # Pokedex Web App
 
-Pokedex is a web application which is a acts as an encyclopedia for all the Pokemon from the LeafGreen and FireRed Games. The web app allows you to view all the 150 Pokemon from the games and discover all the moves and types of the Pokemon to delve into the world of Pokemon.
+Pokedex is a web application which acts as an encyclopedia for all the Pokemon from the LeafGreen and FireRed Games. The web app allows you to view all the 150 Pokemon from the games and discover all the moves and types of the Pokemon to delve into the world of Pokemon.
 
 Pokedex was made using ReactJs and styled with CSS.
