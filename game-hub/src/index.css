@@ -1,0 +1,230 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.game-name {
+  font-family: Oswald, Arial;
+}
+.game-grid {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: solid;
+  border-color: white;
+}
+.game-name{
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  font-family: Oswald, Arial;
+}
+.game-img{
+  width: 100%;
+  object-fit: cover;
+}
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  font-family: Roboto, Arial;
+  margin: 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-style: solid;
+}
+.game-button{
+  background-color: black;
+  border: solid;
+  border-color: white;
+  cursor: pointer;
+}
+.search-bar {
+  border-radius: 10px;
+  border-style: solid;
+  width: 200px;
+  height: 20px;
+  font-family: Oswald, Arial;
+  text-align: center;
+  background-color: white;
+  border-color: white;
+  color: black;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.search-bar:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.logo-pic {
+  object-fit: cover;
+  width: 100%;
+  height: 35px;
+}
+.cart-button, .logo-button{
+  background-color: black;
+  border-style: solid;
+  width: 100px;
+  font-family: Oswald, Arial;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+.logo-button {
+  margin-left: 10px;
+}
+.cart-button:hover, .logo-button:hover, .add-to-cart-button:hover, .return-to-games-button:hover, .cart-delete:hover, .cart-add:hover, .place-order-button:hover, .return-button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.game-selected-container {
+  display: flex;
+  align-items: flex-start; 
+  margin: 20px; 
+  background-color: black;
+  border: solid;
+  border-color: white;
+}
+.game-selected-name{
+  padding-left: 50px;
+  font-family: Oswald, Arial;
+  font-weight: bold;
+  font-size: 20px;
+}
+.game-selected-img {
+  width: 450px; 
+  background-color: black;
+  margin-right: 20px; 
+}
+
+.game-selected-details {
+  width: 500px; 
+  background-color: black;
+  margin-left: 10px;
+  padding-top: 50px;
+  padding-left: 25px;
+  font-family: Oswald, Arial;
+  font-size: 20px;
+}
+
+.add-to-cart-button, .return-to-games-button{
+  background-color: black;
+  border-style: solid;
+  width: 200px;
+  font-family: Oswald, Arial;
+  margin-right: 10px;
+  transition: 0.2s;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.main-page {
+  display: flex;
+  align-items: flex-start; 
+  margin: 20px; 
+  background-color: black;
+  border: solid;
+  border-color: white;
+}
+.filter-side-bar{
+  margin-left: 10px;
+  padding: 10px;
+  font-family: Oswald, Arial;
+}
+.cart-box{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  margin: 10px;
+  background-color: black;
+  border: solid;
+  border-color: white;
+  font-family: Oswald, Arial;
+}
+.cart-game-img-box{
+  width: 120px;
+  margin-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cart-game-img{
+  object-fit: cover;
+  width: 100%;
+}
+.cart-game-div{
+  border: solid;
+  display: flex;
+  border-color: white;
+  margin-top: 10px;
+}
+.place-order-button, .return-button{
+  background-color: black;
+  border-style: solid;
+  width: 200px;
+  font-family: Oswald, Arial;
+  margin-right: 10px;
+  transition: 0.2s;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cart-order-details{
+  margin-left: 100px;
+  padding-bottom: 15px;
+}
+.order-summary{
+  margin-left: 50px;
+}
+.customer-info-form{
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+.cart-game-name{
+  margin-left: 65px;
+  font-weight: 500;
+}
+.cart-game-price{
+  margin-left: 80px;
+  font-weight: 500;
+}
+
+.cart-delete, .cart-add{
+  background-color: black;
+  border-style: solid;
+  width: 100px;
+  font-family: Oswald, Arial;
+  margin-left: 10px;
+  transition: 0.2s;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.empty-cart{
+  margin-left: 70px;
+  margin-top: 70px;
+  font-family: Oswald, Arial;
+}
+.empty-grid{
+  font-family: Oswald, Arial;
+  padding-left: 70px;
+  font-weight: 600;
+}
+.filter-headers{
+  margin-bottom: 0;
+}
